@@ -40,7 +40,7 @@ if ((y-dy>mat[Math.round(x/20)]-27)&&(t==-50))
 {
 t=1;
 }}
-if(Math.abs(dx)==5){x+=dx;if (pos==1){pos=0;if (dx==5){sign='';}else{sign='1';}document.getElementById('hero').innerHTML='<img src=hero'+sign+'0.gif>';}else{pos=1;document.getElementById('hero').innerHTML='<img src=hero'+sign+'1.gif>';}}document.getElementById('hero').style.left=x;document.getElementById('hero').style.top=y-dy;window.scrollTo(x-200,0);if (x>=1480){alert('Bravo! tu as gagn� ce niveau !');this.location='moby2.htm';}else{if ((t==-50)&&(crocs[Math.round(x/20)]!=300)&&(crocs[Math.round(x/20)]!=301)||(y-dy>200)){alert('haha t\'as perdu tes nul mec la honte genre');x=40;pos=0;dx=0;dy=0;t=-50;y=170;sign='';window.scrollTo(0,0);}setTimeout("play()",50);}}
+if(Math.abs(dx)==5){x+=dx;if (pos==1){pos=0;if (dx==5){sign='';}else{sign='1';}document.getElementById('hero').innerHTML='<img src=hero'+sign+'0.gif>';}else{pos=1;document.getElementById('hero').innerHTML='<img src=hero'+sign+'1.gif>';}}document.getElementById('hero').style.left=x;document.getElementById('hero').style.top=y-dy;window.scrollTo(x-200,0);if (x>=1480){alert('oui c bien ta gagner bravo clap clap');this.location='moby2.htm';}else{if ((t==-50)&&(crocs[Math.round(x/20)]!=300)&&(crocs[Math.round(x/20)]!=301)||(y-dy>200)){alert('haha t\'as perdu tes nul mec la honte genre');x=40;pos=0;dx=0;dy=0;t=-50;y=170;sign='';window.scrollTo(0,0);}setTimeout("play()",50);}}
 function getKeystart(keyStroke)    {
 
 isNetscape=(document.getElementById && !document.all);
